@@ -1,0 +1,32 @@
+.container {
+    width: 45vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+
+    margin-bottom: 1rem;
+}
+
+.post_details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-left: 1rem;
+
+    font-family: 'Segoe UI';
+}
+
+#post_date {
+    font-size: 0.726rem;
+
+    color: var(--secondary-text-color);
+}
+
+#post_title > h1 {
+    color: var(--main-text-color);
+    font-weight: 400;
+}

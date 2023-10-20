@@ -1,0 +1,29 @@
+.container {
+    height: 83vh;
+    width: 20vw;
+
+    margin: 1rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    font-family: 'Segoe UI';
+}
+
+#post_img > img {
+    height: 100%;
+    width: 100%;
+}
+
+#post_date > span {
+    font-size: 0.626rem;
+    
+    color: var(--secondary-text-color);
+}
+
+#post_description > p {
+    font-size: 0.826rem;
+}

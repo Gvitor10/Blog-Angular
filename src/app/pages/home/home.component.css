@@ -1,0 +1,61 @@
+header {
+    padding: 2rem;
+
+    background-color: #000;
+}
+
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    background-color: #000;
+}
+
+.posts {
+    margin: 3rem 0rem;
+    padding-bottom: 6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.posts > .aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+section {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    background-color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section > .container {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+section > span {
+    font-family: 'Segoe UI';
+    font-size: 0.726rem;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    color: var(--secondary-text-color);
+}

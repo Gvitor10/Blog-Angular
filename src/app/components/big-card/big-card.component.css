@@ -1,0 +1,35 @@
+.container {
+    height: 50vh;
+    width: 40vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+
+    font-family: 'Segoe UI';
+
+    color: var(--main-text-color);
+}
+
+#post_img > img {
+    height: 240px;
+    width: 700px;
+}
+
+#post_date > span {
+    font-size: 0.726rem;
+    color: var(--secondary-text-color);
+}
+
+#post_title > h1 {
+    font-weight: 400;
+}
+
+#post_description > p {
+    font-weight: 100;
+    font-size: 14px;
+
+    color: var(--secondary-text-color);
+}

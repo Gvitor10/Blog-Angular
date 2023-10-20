@@ -1,0 +1,63 @@
+.nav-bar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-bar_container nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.nav-bar_container nav > img {
+    height: 40px;
+
+    border-radius: 1.5rem;
+}
+
+.nav-bar_container nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+
+    list-style: none;
+}
+
+.nav-bar_container nav ul li > a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.8rem;
+
+    color: var(--secondary-text-color);
+}
+
+.nav-bar_container nav ul li > a:hover {
+    color: var(--main-text-color);
+}
+
+.social-media > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+
+    list-style: none;
+}
+
+.social-media ul li > a {
+    color: var(--secondary-text-color);
+}
+
+.social-media ul li > a:hover {
+    color: var(--main-text-color);
+}
