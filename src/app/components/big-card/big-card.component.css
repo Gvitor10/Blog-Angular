@@ -3,7 +3,7 @@
     width: 40vw;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     gap: 0.2rem;
@@ -32,4 +32,27 @@
     font-size: 14px;
 
     color: var(--secondary-text-color);
+}
+
+/* Layout responsive */
+
+@media screen and (max-width:415px) {
+    .container {
+        height: 20vh;
+        width: 100%;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #post_img > img {
+        height: 150px;
+        width: 320px;
+    }
+
+    #post_title > h1 {
+        font-size: 18px;
+    }
 }

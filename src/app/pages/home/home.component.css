@@ -1,10 +1,14 @@
 header {
+    width: 100vw;
+
     padding: 2rem;
 
     background-color: #000;
 }
 
 main {
+    width: 100vw;
+
     padding-left: 2rem;
     padding-right: 2rem;
 
@@ -58,4 +62,32 @@ section > span {
     text-transform: uppercase;
 
     color: var(--secondary-text-color);
+}
+
+/* responsive layout */
+
+@media screen and (max-width: 415px) {
+    
+    .article {
+        height: 39vh;
+    }
+
+    .posts {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        padding-bottom: 1rem;
+    }
+
+    .posts > .aside {
+        width: 100%;
+    }
+
+    section > .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }

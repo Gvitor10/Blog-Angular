@@ -30,3 +30,29 @@
     color: var(--main-text-color);
     font-weight: 400;
 }
+
+/* responsive layout */
+
+@media screen and (max-width: 415px) {
+    .container {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .container .post_details {
+        padding-left: 0rem;
+    }
+
+    .post_img > img {
+        height: 70px;
+        width: 140px;
+    }
+
+    #post_title > h1 {
+        font-size: 18px;
+    }
+}

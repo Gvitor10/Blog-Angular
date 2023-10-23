@@ -27,3 +27,28 @@
 #post_description > p {
     font-size: 0.826rem;
 }
+
+/* responsive layout */
+
+@media screen and (max-width: 415px) {
+
+    .container {
+        height: 18vh;
+        width: 36vw;
+        
+        gap: 0.2rem;
+    }
+
+    #post_img > img {
+        height: auto;
+        width: 100%;
+    }
+
+    #post_title > h1 {
+        font-size: 18px;
+    }
+    
+    #post_description > p {
+        display: none;
+    }
+}
