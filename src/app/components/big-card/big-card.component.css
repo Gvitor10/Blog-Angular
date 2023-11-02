@@ -1,6 +1,12 @@
+a {
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
 .container {
-    height: 50vh;
-    width: 40vw;
+    height: 55vh;
+    width: 400px;
 
     display: flex;
     justify-content: flex-start;
@@ -8,28 +14,37 @@
     flex-direction: column;
     gap: 0.2rem;
 
-    font-family: 'Segoe UI';
+    font-family: 'Poppins';
 
     color: var(--main-text-color);
 }
 
 #post_img > img {
-    height: 240px;
-    width: 700px;
+    height: 200px;
+    width: 400px;
 }
 
 #post_date > span {
-    font-size: 0.726rem;
-    color: var(--secondary-text-color);
+    font-size: 0.626rem;
+    font-weight: 500;
+    
+    color: var(--secondary-text-color)
 }
 
 #post_title > h1 {
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #DCD7C9;
+}
+
+#post_title > h1:hover {
+    color: #A27B5C;
 }
 
 #post_description > p {
-    font-weight: 100;
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 0.726rem;
 
     color: var(--secondary-text-color);
 }
@@ -38,7 +53,7 @@
 
 @media screen and (max-width:415px) {
     .container {
-        height: 20vh;
+        height: 30vh;
         width: 100%;
 
         display: flex;
@@ -47,12 +62,17 @@
         flex-direction: column;
     }
 
-    #post_img > img {
+    #post_img {
         height: 150px;
-        width: 320px;
+        width: 100%;
+    }
+
+    #post_img > img {
+        height: 100%;
+        width: 100%;
     }
 
     #post_title > h1 {
-        font-size: 18px;
+        font-size: 15px;
     }
 }

@@ -8,6 +8,8 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { OtherCardComponent } from './components/other-card/other-card.component';
+import { ContentComponent } from './pages/content/content.component';
+import { AppRoutingModule } from './app-routes.module';
 
 
 @NgModule({
@@ -19,9 +21,11 @@ import { OtherCardComponent } from './components/other-card/other-card.component
     SmallCardComponent,
     HomeComponent,
     OtherCardComponent,
+    ContentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

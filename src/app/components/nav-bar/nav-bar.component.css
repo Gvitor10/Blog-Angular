@@ -1,8 +1,12 @@
 .nav-bar_container {
+    padding: 1rem 2rem;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+
+    background-color: #2C3639;
 }
 
 .nav-bar_container nav {
@@ -17,6 +21,7 @@
     height: 40px;
 
     border-radius: 1.5rem;
+    border: 2px solid #A27B5C;
 }
 
 .nav-bar_container nav > ul {
@@ -26,7 +31,7 @@
     flex-direction: row;
     gap: 1.5rem;
 
-    font-family: 'Segoe UI';
+    font-family: 'Poppins';
     text-transform: uppercase;
 
     list-style: none;
@@ -34,14 +39,16 @@
 
 .nav-bar_container nav ul li > a {
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 0.8rem;
 
-    color: var(--secondary-text-color);
+    color: #A27B5C;
+
+    cursor: pointer;
 }
 
 .nav-bar_container nav ul li > a:hover {
-    color: var(--main-text-color);
+    color: #FFF;
 }
 
 .social-media > ul {
@@ -55,9 +62,17 @@
 }
 
 .social-media ul li > a {
-    color: var(--secondary-text-color);
+    color: #A27B5C;
 }
 
 .social-media ul li > a:hover {
-    color: var(--main-text-color);
+    color: #FFF;
+}
+
+/* layout responsive */
+
+@media screen and (max-width: 415px) {
+    .nav-bar_container {
+        width: 100%
+    }
 }
