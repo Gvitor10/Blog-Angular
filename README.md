@@ -10,7 +10,7 @@ O projeto *_Blog_Angular_*, é uma aplicação Web construida com o Framework An
 
 2. *Posts interativos:* o usuário consegue acessar os 4 primeiros posts, que o redirecionam para uma nova página!
 
-3. *Layout Responsivo:* aplicação otimizada para dipositiveis móveis
+3. *Layout Responsivo:* aplicação otimizada para dispositivos móveis
 
 
 _Inglish En_
