@@ -1,27 +1,50 @@
-# BlogAngular
+# Blog_Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+_Português Pt-Br_
 
-## Development server
+O projeto *_Blog_Angular_*, é uma aplicação Web construida com o Framework Angular, com o objetivo de colocar os conhecimentos adquiridos durante as aulas do _bootcamp Santander 2023_ na plataforma _Dio_ pelo professor _Felipe Aguiar_ na criação de aplicaçôes web dinâmicas e interativas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+*Recursos e Funcionalidades Principais:*
 
-## Code scaffolding
+1. *Nav bar interativa:* o usuário consegue navegar por entre as paginas pela nav bar acima da tela.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. *Posts interativos:* o usuário consegue acessar os 4 primeiros posts, que o redirecionam para uma nova página!
 
-## Build
+3. *Layout Responsivo:* aplicação otimizada para dipositiveis móveis
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+_Inglish En_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The *_Blog_Angular_* project is a web application built with the Angular Framework, with the aim of putting the knowledge acquired during the _bootcamp Santander 2023_ classes on the _Dio_ platform by professor _Felipe Aguiar_ into the creation of dynamic and interactive web applications.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+*Key Features and Functionality:*
 
-## Further help
+1. *Interactive nav bar:* the user can navigate between pages using the nav bar above the screen.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. *Interactive posts:* the user can access the first 4 posts, which redirect them to a new page!
+
+3. *Responsive Layout:* Application optimized for mobile devices
+
+## Conceitos Importantes / Important Concepts
+
+- Data Binding
+- Two Way Data Binding
+- Life Cycle Hooks
+- Router
+- Módulos Angular
+- Responsive Layout
+- Mobile First
+
+### Tecnologias / technologies
+
+![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript)
+![TypeScript](https://img.shields.io/badge/Typescript-000?style=for-the-badge&logo=typescript)
+![CSS3](https://img.shields.io/badge/CSS3-000?style=for-the-badge&logo=css3&logoColor=264CE4)
+![HTML5](https://img.shields.io/badge/HTML5-000?style=for-the-badge&logo=html5)
+![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)
+![Angular](https://img.shields.io/badge/angular-000.svg?style=for-the-badge&logo=angular&logoColor=red)
+
+> Referências / References
+<br>
+Layout design: https://dribbble.com/shots/18089191-Blog-Layout
